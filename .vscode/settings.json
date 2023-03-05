@@ -1,0 +1,26 @@
+{
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
+}
+import java.util.Scanner;
+
+public class TotalBodyExerciseProgram {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Yaşınız: ");
+        int yas = input.nextInt();
+
+        System.out.print("Kilonuz: ");
+        int kilo = input.nextInt();
+
+        System.out.print("Boyunuz (cm): ");
+       
